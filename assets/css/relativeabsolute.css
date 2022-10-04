@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 38%;
+    height: 73vh;
+    background: cyan;
+    margin: auto;
+    box-sizing: content-box;
+    padding: 70px 100px;
+    border: 3px solid black;
+    
+}
+#yellow {
+    background: yellow; 
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 55%;
+}
+
+#vert {
+    background: green; 
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#blue {
+    background: blue; 
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 55%;
+}
+
+#orange {
+    background: orange; 
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 55%;
+    top: 55%;
+}
